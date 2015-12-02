@@ -1,3 +1,5 @@
+https://romanitalian@bitbucket.org/romanitalian/mp3parse.git
+
 CREATE TABLE `mp3` (
     `id` INT(11) NOT NULL AUTO_INCREMENT,
     `track_name` VARCHAR(50) NOT NULL DEFAULT '0',
