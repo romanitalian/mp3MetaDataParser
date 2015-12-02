@@ -1,5 +1,5 @@
 <?php
-require_once('getID3-1.9.10/getid3/getid3.php');
+require_once('../getID3-1.9.10/getid3/getid3.php');
 
 class Singleton
 {
