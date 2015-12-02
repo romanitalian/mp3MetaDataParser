@@ -1,17 +1,23 @@
+# mp3 parse and save data to db
+
 https://romanitalian@bitbucket.org/romanitalian/mp3parse.git
 
-CREATE TABLE `mp3` (
-    `id` INT(11) NOT NULL AUTO_INCREMENT,
-    `track_name` VARCHAR(50) NOT NULL DEFAULT '0',
-    `duration` DOUBLE NOT NULL DEFAULT '0',
-    `artist_name` VARCHAR(50) NOT NULL DEFAULT '0',
-    `album_name` VARCHAR(50) NOT NULL DEFAULT '0',
-    `album_img` BLOB NOT NULL,
-    `file` TEXT NOT NULL,
-    `date_create` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    PRIMARY KEY (`id`)
-)
-COLLATE='utf8_general_ci'
-ENGINE=InnoDB
-AUTO_INCREMENT=251
-;
+##Before run sctipt - create table:
+
+
+    CREATE TABLE `mp3` (
+        `id` INT(11) NOT NULL AUTO_INCREMENT,
+        `track_name` VARCHAR(50) NOT NULL DEFAULT '0',
+        `duration` DOUBLE NOT NULL DEFAULT '0',
+        `artist_name` VARCHAR(50) NOT NULL DEFAULT '0',
+        `album_name` VARCHAR(50) NOT NULL DEFAULT '0',
+        `album_img` BLOB NOT NULL,
+        `file` TEXT NOT NULL,
+        `date_create` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+        PRIMARY KEY (`id`)
+    )
+    COLLATE='utf8_general_ci'
+    ENGINE=InnoDB
+    AUTO_INCREMENT=251
+    ;
+
