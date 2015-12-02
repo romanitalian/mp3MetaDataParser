@@ -1,0 +1,17 @@
+{
+    "name": "romanitalian/mp3_parser",
+    "description": "parse mp3 files and save data to db",
+    "type": "dev",
+    "require-dev": {
+        "james-heinrich/getid3": "dev-master"
+    },
+    "license": "gnu",
+    "authors": [
+        {
+            "name": "romanitalina",
+            "email": "romanitalian.net@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
